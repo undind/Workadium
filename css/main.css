@@ -1,3 +1,44 @@
 body {
   font-family: 'Gotham Pro', sans-serif;
 }
+.header {
+  background-color: #27273e;
+  height: 77px;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+.logo {
+  display: inline-block;
+  position: absolute;
+  top: 13px;
+  left: 19px;
+}
+.contacts {
+  position: relative;
+}
+.contacts__worktime,
+.contacts__tel {
+  display: inline-block;
+  position: absolute;
+}
+.contacts__tel {
+  top: 22px;
+  right: 21px;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.contacts__worktime {
+  top: 46px;
+  right: 22px;
+  opacity: 0.7;
+  color: #ec1e79;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
