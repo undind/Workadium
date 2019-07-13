@@ -1,6 +1,13 @@
 body {
   font-family: 'Gotham Pro', sans-serif;
 }
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style-type: none;
+}
 .header {
   background-color: #27273e;
   height: 77px;
@@ -44,4 +51,47 @@ body {
 }
 .banner {
   background-color: #27273e;
+}
+.page {
+  padding-top: 65px;
+}
+.sidebar {
+  width: 20%;
+}
+.menu__list {
+  padding-left: 20px;
+}
+.menu__item {
+  padding-bottom: 38px;
+}
+.menu__item:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 18px;
+  background: no-repeat center center;
+}
+.menu__item--main--icon:before {
+  background-image: url('../img/icons/main_icon.png');
+}
+.menu__item--feed--icon:before {
+  background-image: url('../img/icons/feed_icon.png');
+}
+.menu__item--wallet--icon:before {
+  background-image: url('../img/icons/wallet_icon.png');
+}
+.menu__text {
+  display: inline-block;
+  color: #ec1e79;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  margin-left: 17px;
+}
+.active__item .menu__text {
+  color: #000;
+  text-decoration: underline;
 }
