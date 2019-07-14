@@ -5,7 +5,7 @@ h2 {
   font-family: 'Gotham Pro Bold', sans-serif;
   font-size: 49px;
   font-weight: 700;
-  line-height: 38px;
+  line-height: 1;
   color: #221f1f;
   padding: 0;
   margin: 0;
@@ -41,27 +41,26 @@ a {
   position: absolute;
   top: 13px;
   left: 19px;
+  width: 99px;
+}
+.logo__img {
+  max-width: 100%;
 }
 .contacts {
-  position: relative;
-}
-.contacts__worktime,
-.contacts__tel {
-  display: inline-block;
   position: absolute;
+  right: 0;
+  top: 13px;
+  text-align: right;
 }
 .contacts__tel {
-  top: 22px;
-  right: 21px;
   color: #ffffff;
   font-size: 21px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+  display: block;
 }
 .contacts__worktime {
-  top: 46px;
-  right: 22px;
   opacity: 0.7;
   color: #ec1e79;
   font-family: "Open Sans", sans-serif;
@@ -84,7 +83,7 @@ a {
   padding-left: 20px;
 }
 .menu__item {
-  padding-bottom: 38px;
+  margin-bottom: 38px;
 }
 .menu__text {
   display: inline-block;
@@ -122,8 +121,8 @@ a {
   width: 80%;
   vertical-align: top;
 }
-.features__list {
-  padding-top: 65px;
+.page-title {
+  margin-bottom: 65px;
 }
 .features__item {
   display: inline-block;
@@ -181,9 +180,6 @@ a {
 .news {
   padding-top: 95px;
   padding-bottom: 65px;
-}
-.news__title {
-  padding-bottom: 75px;
 }
 .news__photo {
   overflow: hidden;
