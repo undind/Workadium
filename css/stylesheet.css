@@ -28,3 +28,13 @@
 	font-weight: bold;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Gotham Pro Italic';
+	src: url('../fonts/Gotham/GothamPro-LightItalic.eot');
+	src: local('Gotham Pro Light Italic'), local('GothamPro-LightItalic'),
+		url('../fonts/Gotham/GothamPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gotham/GothamPro-LightItalic.woff') format('woff'),
+		url('../fonts/Gotham/GothamPro-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
