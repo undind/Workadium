@@ -38,13 +38,13 @@
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="index.html" class="menu__text menu__item--main--icon active__item">Главная</a>
+                  <a href="index.html" class="menu__link menu__item--main--icon">Главная</a>
                 </li>
                 <li class="menu__item">
-                  <a href="comments.html" class="menu__text menu__item--feed--icon">Отзывы</a>
+                  <a href="comments.html" class="menu__link menu__item--feed--icon--active active__item">Отзывы</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__text  menu__item--wallet--icon">Тарифы</a>
+                  <a href="#" class="menu__link  menu__item--wallet--icon">Тарифы</a>
                 </li>
               </ul>
             </nav>
@@ -62,7 +62,7 @@
                   </li>
                 </ul>
               </nav>
-            <!-- Коментарии -->
+            <!-- Отзывы -->
             <div class="comments">
               <h2 class="page-title comments-title">Отзывы</h2>
               <ul class="news__list">
@@ -101,8 +101,8 @@
                 </li>
 
                 <li class="news__block">
-                  <div class="news__photo">
-                    <img src="img/news3.jpg" class="photo" alt="News">
+                  <div class="news__photo reviews__photo">
+                    <img src="img/logo/logo.png" class="photo reviews__img" alt="News">
                   </div>
                   <div class="news__content">
                     <div class="news__date">
@@ -140,12 +140,12 @@
               <div class="pages__desc">
                 Страница 1 из 7
               </div>
+              <div class="pages__item">
+                <a href="#" class="pages__arrow pages__arrow--left"><</a>
+              </div>
               <ul class="pages__list">
                 <li class="pages__item">
-                    <a href="#" class="pages__arrow pages__arrow--left"><</a>
-                  </li>
-                <li class="pages__item">
-                  <a href="#" class="pages__number pages__number--active">1</a>
+                  <a href="#" class="pages__number">1</a>
                 </li>
                 <li class="pages__item">
                   <a href="#" class="pages__number">2</a>
@@ -165,10 +165,10 @@
                 <li class="pages__item">
                   <a href="#" class="pages__number">7</a>
                 </li>
-                <li class="pages__item">
-                  <a href="#" class="pages__arrow pages__arrow--right">></a>
-                </li>
               </ul>
+              <div class="pages__item">
+                <a href="#" class="pages__arrow pages__arrow--right">></a>
+              </div>
             </div>
 
           </main>
@@ -180,6 +180,20 @@
       <div class="container">
         <div class="stock__content">
             Для наших новых клиентов мы предлагаем <span class="stock__discount">скидку 50%</span> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
+        </div>
+      </div>
+    </section>
+
+    <!-- Обратная связь -->
+    <section class="feedback">
+      <div class="container">
+        <div class="feedback__wrapper">
+          <h2 class="page-title">
+            Оставить отзыв
+          </h2>
+          <form action="#" class="feedback__form" method="POST">
+
+          </form>
         </div>
       </div>
     </section>

@@ -95,7 +95,7 @@ a {
 .menu__item {
   margin-bottom: 38px;
 }
-.menu__text {
+.menu__link {
   display: inline-block;
   color: #ec1e79;
   font-size: 12px;
@@ -104,7 +104,11 @@ a {
   letter-spacing: 1.2px;
   text-decoration: none;
 }
-.menu__text:before {
+.menu__link:hover {
+  color: #000;
+  text-decoration: underline;
+}
+.menu__link:before {
   content: '';
   display: inline-block;
   vertical-align: bottom;
@@ -116,11 +120,23 @@ a {
 .menu__item--main--icon:before {
   background-image: url('../img/icons/main_icon.png');
 }
+.menu__item--main--icon:hover:before {
+  background-image: url('../img/icons/main_icon_active.png');
+}
 .menu__item--feed--icon:before {
   background-image: url('../img/icons/feed_icon.png');
 }
+.menu__item--feed--icon:hover:before {
+  background-image: url('../img/icons/feed_icon_active.png');
+}
 .menu__item--wallet--icon:before {
   background-image: url('../img/icons/wallet_icon.png');
+}
+.menu__item--main--icon--active:before {
+  background-image: url('../img/icons/main_icon_active.png');
+}
+.menu__item--feed--icon--active::before {
+  background-image: url('../img/icons/feed_icon_active.png');
 }
 .active__item {
   color: #000;
@@ -235,6 +251,17 @@ a {
   display: inline-block;
   width: 20%;
 }
+.reviews__photo {
+  width: 160px;
+  height: 160px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reviews__img {
+  opacity: 0.3;
+}
 .photo {
   display: block;
   max-width: 100%;
@@ -278,13 +305,15 @@ a {
   padding-top: 10px;
 }
 .pages {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
-.pages__desc,
-.pages__list,
-.pages__item {
-  display: inline;
+.pages__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .pages__item {
   margin-right: 12px;
@@ -311,17 +340,18 @@ a {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
-  line-height: 21px;
-  border-radius: 5px;
+  line-height: 1.2;
 }
 .pages__number--active {
   width: 25px;
   height: 25px;
   background-color: #27273e;
   color: #fff;
+  border-radius: 5px;
 }
 .stock {
-  background-color: #27273e;
+  background: url('../img/pattern.png') #27273e repeat center center;
+  background-size: contain;
   margin-bottom: 57px;
 }
 .stock__content {
