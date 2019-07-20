@@ -1,0 +1,27 @@
+.logo {
+  display: inline-block;
+  margin: 13px 0;
+}
+.logo__img {
+  max-width: 100%;
+}
+.contacts {
+  text-align: right;
+  margin-top: 22px;
+}
+.contacts__tel {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+}
+.contacts__worktime {
+  opacity: 0.7;
+  color: #ec1e79;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+}

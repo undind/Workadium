@@ -1,0 +1,29 @@
+.partners {
+  margin-top: 70px;
+}
+.partners-head {
+  margin-bottom: 50px;
+}
+.partners__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: -50px;
+}
+.partners__item {
+  flex: 1 0 250px;
+  margin-bottom: 50px;
+}
+.partners__logo {
+  width: 100%;
+  overflow: hidden;
+}
+.partners__img {
+  display: block;
+  max-width: 100%;
+  opacity: 0.7;
+}
+.price-page {
+  margin-bottom: 90px;
+}

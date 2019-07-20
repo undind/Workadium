@@ -1,0 +1,20 @@
+.stock {
+  background: url('../../img/pattern.png') #27273e repeat center center;
+  background-size: contain;
+  margin-bottom: 57px;
+}
+.stock__content {
+  text-align: left;
+  max-width: 613px;
+  margin-left: 214px;
+  padding: 48px 0;
+  color: #ffffff;
+  font-family: 'Gotham Pro Light', sans-serif;
+  font-weight: 300;
+  line-height: 1.8;
+}
+.stock__discount {
+  color: #ec1e79;
+  font-family: "Gotham Pro", sans-serif;
+  font-weight: 700;
+}

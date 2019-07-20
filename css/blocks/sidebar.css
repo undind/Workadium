@@ -1,0 +1,64 @@
+.sidebar {
+  margin-right: 68px;
+  flex: 0 0 auto;
+ }
+ .menu__list {
+   display: flex;
+   flex-direction: column;
+ }
+ .menu__item {
+   margin-bottom: 38px;
+ }
+ .menu__link {
+   display: inline-block;
+   color: #ec1e79;
+   font-size: 12px;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 1.2px;
+   text-decoration: none;
+ }
+ .menu__link:hover {
+   color: #000;
+   text-decoration: underline;
+ }
+ .menu__link:before {
+   content: '';
+   display: inline-block;
+   vertical-align: bottom;
+   width: 20px;
+   height: 18px;
+   margin-right: 17px;
+   background: no-repeat center center;
+ }
+ .menu__item--main--icon:before {
+   background-image: url('../../img/icons/main_icon.png');
+ }
+ .menu__item--main--icon:hover:before {
+   background-image: url('../../img/icons/main_icon_active.png');
+ }
+ .menu__item--feed--icon:before {
+   background-image: url('../../img/icons/feed_icon.png');
+ }
+ .menu__item--feed--icon:hover:before {
+   background-image: url('../../img/icons/feed_icon_active.png');
+ }
+ .menu__item--wallet--icon:before {
+   background-image: url('../../img/icons/wallet_icon.png');
+ }
+ .menu__item--wallet--icon:hover:before {
+   background-image: url('../../img/icons/wallet_icon_active.png');
+ }
+ .menu__item--main--icon--active:before {
+   background-image: url('../../img/icons/main_icon_active.png');
+ }
+ .menu__item--feed--icon--active::before {
+   background-image: url('../../img/icons/feed_icon_active.png');
+ }
+ .menu__item--wallet--icon--active:before {
+   background-image: url('../../img/icons/wallet_icon_active.png');
+ }
+ .active__item {
+   color: #000;
+   text-decoration: underline;
+ }

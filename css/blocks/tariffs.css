@@ -1,0 +1,72 @@
+.tariffs-head {
+  margin-bottom: 43px;
+}
+.tariffs__logo {
+  max-width: 250px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+.tariffs__logo::before {
+  content: attr(data-text);
+  display: block;
+}
+.tariffs__logo-data,
+.tariffs__logo::before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #5dd1f8;
+  transform: translate(-50%, -50%);
+  font-family: 'Gotham Pro Bold', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  z-index: 20;
+}
+.tariffs__logo-dectext {
+  color: #ec1e79;
+}
+.tariffs__logo::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(39, 39, 62, 0.85);
+}
+.tariffs__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -45px;
+  margin-bottom: -65px;
+}
+.tariffs__item {
+  text-align: center;
+  margin-bottom: 65px;
+  flex: 1 0 250px;
+  margin-right: 45px;
+}
+.tariffs__logo-elem {
+  display: block;
+  max-width: 100%;
+}
+.tariffs__desc {
+  margin-top: 25px;
+}
+.tariffs__title {
+  color: #221f1f;
+  font-family: 'Gotham Pro Bold', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.tariffs__text {
+  color: #221f1f;
+  font-size: 14px;
+  font-family: "Gotham Pro Light", sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+}

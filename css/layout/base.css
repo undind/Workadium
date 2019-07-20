@@ -1,0 +1,53 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Gotham Pro', sans-serif;
+  font-size: 18px;
+}
+address {
+  font-style: normal;
+}
+h2 {
+  font-family: 'Gotham Pro Bold', sans-serif;
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 1;
+  color: #221f1f;
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background-color: #27273e;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 1060px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+}

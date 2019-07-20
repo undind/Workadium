@@ -1,0 +1,15 @@
+.reviews__photo {
+  width: 160px;
+  height: 160px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reviews__img {
+  opacity: 0.3;
+}
+.photo {
+  display: block;
+  max-width: 100%;
+}

@@ -1,0 +1,20 @@
+.page {
+  margin-top: 65px;
+  margin-bottom: 70px;
+}
+.comments-page {
+  margin-top: 45px;
+  margin-bottom: 63px;
+}
+.page-wrapper {
+  display: flex;
+}
+.page-title {
+  margin-bottom: 65px;
+}
+.comments-title {
+  margin-bottom: 50px;
+}
+.comments {
+  margin-bottom: 55px;
+}
