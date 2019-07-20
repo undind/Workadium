@@ -3,10 +3,13 @@
   background-size: contain;
   margin-bottom: 57px;
 }
+.stock__container {
+  display: flex;
+  justify-content: center;
+}
 .stock__content {
   text-align: left;
-  max-width: 613px;
-  margin-left: 214px;
+  width: 60%;
   padding: 48px 0;
   color: #ffffff;
   font-family: 'Gotham Pro Light', sans-serif;
