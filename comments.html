@@ -21,10 +21,10 @@
           <a href="index.html" class="logo">
             <img src="img/logo/logo.png" alt="Site-logo" class="logo__img">
           </a>
-          <div class="contacts">
+          <address class="contacts">
             <a href="tel:+88000039210" class="contacts__tel">8 (800) 00-392-10</a>
             <a href="#" class="contacts__worktime">График работы</a>
-          </div>
+          </address>
         </div>
       </div>
     </header>
@@ -144,7 +144,7 @@
                 <a href="#" class="pages__arrow pages__arrow--left"><</a>
               </div>
               <ul class="pages__list">
-                <li class="pages__item">
+                <li class="pages__item pages__number--active">
                   <a href="#" class="pages__number">1</a>
                 </li>
                 <li class="pages__item">
@@ -188,11 +188,30 @@
     <section class="feedback">
       <div class="container">
         <div class="feedback__wrapper">
-          <h2 class="page-title">
-            Оставить отзыв
-          </h2>
           <form action="#" class="feedback__form" method="POST">
-
+            <h2 class="page-title form-title">
+              Оставить отзыв
+            </h2>
+            <div class="form__group">
+              <label for="form__name" class="form__label">Ваше имя</label>
+              <input type="text" name="name" class="form__input" id="form__name" placeholder="Андрей">
+            </div>
+            <div class="form__group">
+              <label for="form__link" class="form__label">Ссылка на профиль VK</label>
+              <input type="text" name="link" class="form__input" id="form__link" placeholder="vk.com/example">
+            </div>
+            <label for="form__textarea" class="form__label form__label--text">Текст отзыва</label>
+            <textarea name="textarea" class="form__textarea" id="form__textarea">Мне понравилось</textarea>
+            <div class="form__radio">
+              <p class="radio__text">Отображать фото в отзыве?</p>
+              <div class="radio__item">
+                <input type="radio" class="radio__input" id="form__yes" name="form__radio" checked>
+                <label for="form__yes" class="radio__label">Да</label>
+                <input type="radio" class="radio__input" id="form__no" name="form__radio">
+                <label for="form__no" class="radio__label">Нет</label>
+              </div>
+            </div>
+            <input type="submit" name="button" id="form__button" class="form__submit" value="Отправить">
           </form>
         </div>
       </div>
