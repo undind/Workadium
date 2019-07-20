@@ -2,9 +2,15 @@
   background-color: #27273e;
 }
 .footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   padding-top: 14px;
 }
 .footer__desc {
@@ -12,7 +18,8 @@
   color: #fff;
   font-family: "Gotham Pro Light", sans-serif;
   font-weight: 300;
-  flex-basis: 257px;
+  -ms-flex-preferred-size: 257px;
+      flex-basis: 257px;
 }
 .footer__link {
   color: #fff;
@@ -35,12 +42,20 @@
 }
 .social__block {
   margin-top: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .social__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 20px;
   height: 20px;
   background-color: #d4d4d8;

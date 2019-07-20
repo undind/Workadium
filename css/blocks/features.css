@@ -1,4 +1,6 @@
 .features__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-left: 24px;
 }
@@ -8,7 +10,9 @@
 .features__item {
   text-align: center;
   margin-right: 68px;
-  flex: 0 0 207px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 197px;
+          flex: 0 0 197px;
 }
 .features__item:last-child {
   margin-right: 0;
@@ -27,7 +31,8 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 .features__item--desc {
   color: #212121;
