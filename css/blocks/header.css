@@ -1,13 +1,23 @@
+.header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 13px 0;
+}
 .logo {
-  display: inline-block;
-  margin: 13px 0;
+  display: block;
 }
 .logo__img {
   max-width: 100%;
 }
 .contacts {
   text-align: right;
-  margin-top: 22px;
 }
 .contacts__tel {
   color: #ffffff;

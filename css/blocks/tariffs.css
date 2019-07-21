@@ -7,12 +7,7 @@
   display: inline-block;
   position: relative;
 }
-.tariffs__logo::before {
-  content: attr(data-text);
-  display: block;
-}
-.tariffs__logo-data,
-.tariffs__logo::before {
+.tariffs__logo-data {
   position: absolute;
   left: 50%;
   top: 50%;

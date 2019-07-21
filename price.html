@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="css/stylesheet.css">
   <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
   <title>Тарифы</title>
 </head>
@@ -67,8 +66,9 @@
               <ul class="tariffs__list">
                 <li class="tariffs__item">
                   <div class="tariffs__photo">
-                    <div class="tariffs__logo" data-text="«ОДИН»">
+                    <div class="tariffs__logo">
                       <img src="img/tariffs/tariffs1.jpg" alt="photo" class="tariffs__logo-elem">
+                      <div class="tariffs__logo-data">«ОДИН»</div>
                     </div>
                   </div>
                   <div class="tariffs__desc">
@@ -82,8 +82,9 @@
                 </li>
                 <li class="tariffs__item">
                   <div class="tariffs__photo">
-                    <div class="tariffs__logo" data-text="«Трое»">
+                    <div class="tariffs__logo">
                       <img src="img/tariffs/tariffs2.jpg" alt="photo" class="tariffs__logo-elem">
+                      <div class="tariffs__logo-data">«Трое»</div>
                     </div>
                   </div>
                   <div class="tariffs__desc">
@@ -97,8 +98,9 @@
                 </li>
                 <li class="tariffs__item">
                   <div class="tariffs__photo">
-                    <div class="tariffs__logo" data-text="«10-10»">
+                    <div class="tariffs__logo">
                       <img src="img/tariffs/tariffs3.jpg" alt="photo" class="tariffs__logo-elem">
+                      <div class="tariffs__logo-data">«10-10»</div>
                     </div>
                   </div>
                   <div class="tariffs__desc">
@@ -146,8 +148,9 @@
                 </li>
                 <li class="tariffs__item">
                   <div class="tariffs__photo">
-                    <div class="tariffs__logo" data-text="«Переговоры»"> 
+                    <div class="tariffs__logo"> 
                       <img src="img/tariffs/tariffs6.jpg" alt="photo" class="tariffs__logo-elem">
+                      <div class="tariffs__logo-data">«Переговоры»</div>
                     </div>
                   </div>
                   <div class="tariffs__desc">
@@ -193,39 +196,45 @@
 
     <!-- Подвал сайта -->
     <footer class="footer">
-      <div class="container">
-        <div class="footer-wrapper">
-          <div class="footer__desc">
-            Сделано с любовью и старанием
-            на курсе «HTML + CSS» в <a href="#" class="footer__link">LoftSchool.</a>
-            Автор работы: <span class="footer__text">Прохладов Вадим</span>
-          </div>
-          <a href="index.html" class="footer__logo">
-            <img src="img/logo/logo.png" alt="Site-logo" class="logo__img">
-          </a>
-          <div class="footer__social">
-            Наши социальные сети
-            <ul class="social__block">
-              <li class="social__item">
-                <a href="#" class="social__link social__active"><img src="img/icons/vk.png" class="social__icon" alt="VK"></a>
-              </li>
-              <li class="social__item">
-                <a href="#" class="social__link"><img src="img/icons/fb.png" class="social__icon" alt="FB"></a>
-              </li>
-              <li class="social__item">
-                <a href="#" class="social__link"><img src="img/icons/google.png" class="social__icon" alt="GOOGLE"></a>
-              </li>
-              <li class="social__item">
-                <a href="#" class="social__link"><img src="img/icons/twitter.png" class="social__icon" alt="TWITTER"></a>
-              </li>
-              <li class="social__item">
-                <a href="#" class="social__link"><img src="img/icons/mail.png" class="social__icon" alt="MAIL"></a>
-              </li>
-            </ul>
+        <div class="container">
+          <div class="footer-wrapper">
+            <div class="footer__col footer__col--left">
+              <div class="footer__desc">
+              Сделано с любовью и старанием
+              на курсе «HTML + CSS» в <a href="#" class="footer__link">LoftSchool.</a>
+              Автор работы: <span class="footer__text">Прохладов Вадим</span>
+              </div>
+            </div>
+            <div class="footer__col footer__col--center">
+              <a href="index.html" class="footer__logo">
+                <img src="img/logo/logo.png" alt="Site-logo" class="logo__img">
+              </a>
+            </div>
+            <div class="footer__col footer__col--right">
+              <div class="footer__social">
+                Наши социальные сети
+                <ul class="social__block">
+                  <li class="social__item">
+                    <a href="#" class="social__link social__active"><img src="img/icons/vk.png" class="social__icon" alt="VK"></a>
+                  </li>
+                  <li class="social__item">
+                    <a href="#" class="social__link"><img src="img/icons/fb.png" class="social__icon" alt="FB"></a>
+                  </li>
+                  <li class="social__item">
+                    <a href="#" class="social__link"><img src="img/icons/google.png" class="social__icon" alt="GOOGLE"></a>
+                  </li>
+                  <li class="social__item">
+                    <a href="#" class="social__link"><img src="img/icons/twitter.png" class="social__icon" alt="TWITTER"></a>
+                  </li>
+                  <li class="social__item">
+                    <a href="#" class="social__link"><img src="img/icons/mail.png" class="social__icon" alt="MAIL"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
   </div>
 </body>
 </html>

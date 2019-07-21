@@ -23,11 +23,11 @@
       -ms-flex: 1 0 250px;
           flex: 1 0 250px;
   margin-bottom: 50px;
-  opacity: 0.6;
-  transition: opacity 0.5s ease-out;
+  filter: grayscale(1);
+  transition: filter 0.5s ease-out;
 }
 .partners__item:hover {
-  opacity: 1;
+  filter: grayscale(0);
 }
 .partners__img {
   display: block;

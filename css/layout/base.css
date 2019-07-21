@@ -1,10 +1,6 @@
-html {
+html, *, *:before, *:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
 }
 body {
   font-family: 'Gotham Pro', sans-serif;
@@ -38,14 +34,6 @@ a {
 }
 .header {
   background-color: #27273e;
-}
-.header-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 .container {
   width: 1060px;
