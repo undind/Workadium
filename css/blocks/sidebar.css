@@ -5,6 +5,10 @@
   flex-direction: column;
   align-items: center;
  }
+ .nav-menu {
+   justify-content: flex-start;
+   margin-bottom: 33px;
+ }
  .menu__list {
    display: flex;
  }
@@ -28,6 +32,12 @@
  }
  .menu__link:hover {
    color: #ec1e79;
+ }
+ .menu__link--item {
+  color: #ec1e79;
+ }
+ .menu__link--item:hover {
+   color:#221f1f;
  }
  .menu__link:before {
    content: '';
@@ -58,8 +68,26 @@
  .menu__item--wallet--icon:hover:before {
    background-image: url('../../img/icons/wallet_icon.png');
  }
+ .menu__item--main::before {
+  background-image: url('../../img/icons/main_icon.png');
+ }
+ .active__item--link::before {
+  background-image: url('../../img/icons/feed_icon_active.png');
+ }
+ .menu__item--wallet::before {
+  background-image: url('../../img/icons/wallet_icon.png');
+ }
+ .menu__item--main:hover::before {
+  background-image: url('../../img/icons/main_icon_active.png');
+ }
+ .menu__item--wallet:hover::before {
+  background-image: url('../../img/icons/wallet_icon_active.png');
+ }
  .active__item {
    color: #ec1e79;
+ }
+ .active__item--link {
+   color: #221f1f;
  }
  .social {
   color: #221f1f;

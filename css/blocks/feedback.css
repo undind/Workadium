@@ -1,9 +1,8 @@
 .feedback {
-  margin-bottom: 50px;
+  margin-top: 60px;
 }
 .feedback__wrapper {
   width: 700px;
-  margin: 0 auto;
 }
 .feedback__form {
   padding: 51px 70px 49px 68px;
@@ -163,4 +162,8 @@
   border: 0;
   padding: 19px 22px 17px 21px;
   cursor: pointer;
+}
+.form__submit:hover {
+  background-color: #ec1e79;
+  transition: background-color 0.4s ease-out;
 }

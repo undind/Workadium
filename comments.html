@@ -33,21 +33,48 @@
         <div class="page-wrapper">
           <!-- Сайдбар -->
           <aside class="sidebar">
-            
+            <div class="stock__container">
+              <div class="stock__content">
+                  Для наших новых клиентов мы предлагаем <span class="stock__discount">скидку 50%</span> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
+              </div>
+            </div>
+            <!-- Соцальные сети -->
+            <div class="social">
+              <div class="social__header">
+                Наши социальные сети
+              </div>
+              <ul class="social__block">
+                <li class="social__item">
+                  <a href="#" class="social__link"><img src="img/icons/vk.png" class="social__icon" alt="VK"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link"><img src="img/icons/fb.png" class="social__icon" alt="FB"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link"><img src="img/icons/google.png" class="social__icon" alt="GOOGLE"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link"><img src="img/icons/twitter.png" class="social__icon" alt="TWITTER"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link"><img src="img/icons/mail.png" class="social__icon" alt="MAIL"></a>
+                </li>
+              </ul>
+            </div>
           </aside>
           
           <main class="content">
             <!-- Меню -->
-            <nav class="menu">
+            <nav class="menu nav-menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="index.html" class="menu__link menu__item--main--icon">Главная</a>
+                  <a href="index.html" class="menu__link menu__link--item menu__item--main">Главная</a>
                 </li>
                 <li class="menu__item">
-                  <a href="comments.html" class="menu__link menu__item--feed--icon--active active__item">Отзывы</a>
+                  <a href="comments.html" class="menu__link menu__link--item menu__item--feed--icon--active active__item--link">Отзывы</a>
                 </li>
                 <li class="menu__item">
-                  <a href="price.html" class="menu__link  menu__item--wallet--icon">Тарифы</a>
+                  <a href="price.html" class="menu__link menu__link--item  menu__item--wallet">Тарифы</a>
                 </li>
               </ul>
             </nav>
@@ -160,93 +187,60 @@
               </div>
             </section>
 
+             <!-- Обратная связь -->
+            <section class="feedback">
+              <div class="feedback__wrapper">
+                <form action="#" class="feedback__form" method="POST">
+                  <h2 class="page-title form-title">
+                    Оставить отзыв
+                  </h2>
+                  <div class="form__group">
+                    <label for="form__name" class="form__label">Ваше имя</label>
+                    <input type="text" name="name" class="form__input" id="form__name" placeholder="Андрей">
+                  </div>
+                  <div class="form__group">
+                    <label for="form__link" class="form__label">Ссылка на профиль VK</label>
+                    <input type="text" name="link" class="form__input" id="form__link" placeholder="vk.com/example">
+                  </div>
+                  <label for="form__textarea" class="form__label form__label--text">Текст отзыва</label>
+                  <textarea name="textarea" class="form__textarea" id="form__textarea" placeholder="Мне понравилось"></textarea>
+                  <div class="form__radio">
+                    <p class="radio__text">Отображать фото в отзыве?</p>
+                    <div class="radio__item">
+                      <input type="radio" class="radio__input" id="form__yes" name="form__radio" checked>
+                      <label for="form__yes" class="radio__label">Да</label>
+                      <input type="radio" class="radio__input" id="form__no" name="form__radio">
+                      <label for="form__no" class="radio__label">Нет</label>
+                    </div>
+                  </div>
+                  <input type="submit" name="button" id="form__button" class="form__submit" value="Отправить">
+                </form>
+              </div>
+            </section>
+
           </main>
         </div>
       </div>
     </div>
-
-    <section class="stock">
-      <div class="container stock__container">
-        <div class="stock__content">
-            Для наших новых клиентов мы предлагаем <span class="stock__discount">скидку 50%</span> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
-        </div>
-      </div>
-    </section>
-
-    <!-- Обратная связь -->
-    <section class="feedback">
-      <div class="container">
-        <div class="feedback__wrapper">
-          <form action="#" class="feedback__form" method="POST">
-            <h2 class="page-title form-title">
-              Оставить отзыв
-            </h2>
-            <div class="form__group">
-              <label for="form__name" class="form__label">Ваше имя</label>
-              <input type="text" name="name" class="form__input" id="form__name" placeholder="Андрей">
-            </div>
-            <div class="form__group">
-              <label for="form__link" class="form__label">Ссылка на профиль VK</label>
-              <input type="text" name="link" class="form__input" id="form__link" placeholder="vk.com/example">
-            </div>
-            <label for="form__textarea" class="form__label form__label--text">Текст отзыва</label>
-            <textarea name="textarea" class="form__textarea" id="form__textarea" placeholder="Мне понравилось"></textarea>
-            <div class="form__radio">
-              <p class="radio__text">Отображать фото в отзыве?</p>
-              <div class="radio__item">
-                <input type="radio" class="radio__input" id="form__yes" name="form__radio" checked>
-                <label for="form__yes" class="radio__label">Да</label>
-                <input type="radio" class="radio__input" id="form__no" name="form__radio">
-                <label for="form__no" class="radio__label">Нет</label>
-              </div>
-            </div>
-            <input type="submit" name="button" id="form__button" class="form__submit" value="Отправить">
-          </form>
-        </div>
-      </div>
-    </section>
-
     <!-- Подвал сайта -->
     <footer class="footer">
-        <div class="container">
-          <div class="footer-wrapper">
-            <div class="footer__col footer__col--left">
-              <div class="footer__desc">
-              Сделано с любовью и старанием
-              на курсе «HTML + CSS» в <a href="#" class="footer__link">LoftSchool.</a>
-              Автор работы: <span class="footer__text">Прохладов Вадим</span>
-              </div>
-            </div>
-            <div class="footer__col footer__col--center">
-              <a href="index.html" class="footer__logo">
-                <img src="img/logo/logo.png" alt="Site-logo" class="logo__img">
-              </a>
-            </div>
-            <div class="footer__col footer__col--right">
-              <div class="footer__social">
-                Наши социальные сети
-                <ul class="social__block">
-                  <li class="social__item">
-                    <a href="#" class="social__link social__active"><img src="img/icons/vk.png" class="social__icon" alt="VK"></a>
-                  </li>
-                  <li class="social__item">
-                    <a href="#" class="social__link"><img src="img/icons/fb.png" class="social__icon" alt="FB"></a>
-                  </li>
-                  <li class="social__item">
-                    <a href="#" class="social__link"><img src="img/icons/google.png" class="social__icon" alt="GOOGLE"></a>
-                  </li>
-                  <li class="social__item">
-                    <a href="#" class="social__link"><img src="img/icons/twitter.png" class="social__icon" alt="TWITTER"></a>
-                  </li>
-                  <li class="social__item">
-                    <a href="#" class="social__link"><img src="img/icons/mail.png" class="social__icon" alt="MAIL"></a>
-                  </li>
-                </ul>
-              </div>
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer__col footer__col--left">
+            <div class="footer__desc">
+            Сделано с любовью и старанием
+            на курсе «HTML + CSS» в <a href="#" class="footer__link">LoftSchool.</a>
+            Автор работы: <span class="footer__text">Прохладов Вадим</span>
             </div>
           </div>
+          <div class="footer__col footer__col--right">
+            <a href="index.html" class="footer__logo">
+              <img src="img/logo/logo.png" alt="Site-logo" class="logo__img">
+            </a>
+          </div>
         </div>
-      </footer>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
