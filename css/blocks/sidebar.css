@@ -83,6 +83,12 @@
  .menu__item--wallet:hover::before {
   background-image: url('../../img/icons/wallet_icon_active.png');
  }
+ .menu__item--feed::before {
+  background-image: url('../../img/icons/feed_icon.png');
+ }
+ .menu__item--feed:hover::before {
+  background-image: url('../../img/icons/feed_icon_active.png');
+ }
  .active__item {
    color: #ec1e79;
  }
