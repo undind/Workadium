@@ -18,6 +18,9 @@
 .pages__item {
   margin-right: 12px;
 }
+.pages__item:hover .pages__number {
+  color: #ae2264;
+}
 .pages__desc {
   margin-right: 20px;
   color: #656464;

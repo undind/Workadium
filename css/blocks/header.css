@@ -11,10 +11,16 @@
   padding: 13px 0;
 }
 .logo {
-  display: block;
+  display: flex;
+  flex: 0 0 auto;
 }
 .logo__img {
   max-width: 100%;
+}
+.menu {
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 .contacts {
   text-align: right;

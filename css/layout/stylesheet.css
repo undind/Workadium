@@ -20,7 +20,7 @@
 }
 @font-face {
 	font-family: 'Gotham Pro Bold';
-	src: url('../fonts/Gotham/GothamPro-Bold.eot');
+	src: url('../../fonts/Gotham/GothamPro-Bold.eot');
 	src: local('Gotham Pro Bold'), local('GothamPro-Bold'),
 		url('../../fonts/Gotham/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
 		url('../../fonts/Gotham/GothamPro-Bold.woff') format('woff'),

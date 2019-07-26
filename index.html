@@ -19,6 +19,19 @@
           <a href="index.html" class="logo">
             <img src="img/logo/logo.png" alt="Site-logo" class="logo__img">
           </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="index.html" class="menu__link menu__item--main--icon--active active__item">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="comments.html" class="menu__link menu__item--feed--icon">Отзывы</a>
+              </li>
+              <li class="menu__item">
+                <a href="price.html" class="menu__link  menu__item--wallet--icon">Тарифы</a>
+              </li>
+            </ul>
+          </nav>
           <address class="contacts">
             <a href="tel:+88000039210" class="contacts__tel">8 (800) 00-392-10</a>
             <a href="" class="contacts__worktime">График работы</a>
@@ -37,100 +50,56 @@
     <div class="page">
       <div class="container">
         <div class="page-wrapper">
-          <!-- Меню -->
+          <!-- Сайдбар -->
           <aside class="sidebar">
-            <nav class="menu">
-              <ul class="menu__list">
-                <li class="menu__item">
-                  <a href="index.html" class="menu__link menu__item--main--icon--active active__item">Главная</a>
+            <div class="features__item">
+              <div class="features__item--head">
+                Топ тариф
+              </div>
+              <div class="features__item--desc">
+                уникальность
+              </div>
+              <div class="features__item--text">
+                Создан для вашего комфортного отдыха
+              </div>
+              <ul class="features__item--list">
+                <li class="features__item--point">
+                  <span>Кофе/чай</span> 
                 </li>
-                <li class="menu__item">
-                  <a href="comments.html" class="menu__link menu__item--feed--icon">Отзывы</a>
+                <li class="features__item--point">
+                  <span>Шкаф (5 кг)</span>
                 </li>
-                <li class="menu__item">
-                  <a href="price.html" class="menu__link  menu__item--wallet--icon">Тарифы</a>
+                <li class="features__item--point">
+                  <span>Рабочее место</span>
                 </li>
               </ul>
-            </nav>
+            </div>
+
+            <div class="social">
+              <div class="social__header">
+                Наши социальные сети
+              </div>
+              <ul class="social__block">
+                <li class="social__item">
+                  <a href="#" class="social__link"><img src="img/icons/vk.png" class="social__icon" alt="VK"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link"><img src="img/icons/fb.png" class="social__icon" alt="FB"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link"><img src="img/icons/google.png" class="social__icon" alt="GOOGLE"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link"><img src="img/icons/twitter.png" class="social__icon" alt="TWITTER"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link"><img src="img/icons/mail.png" class="social__icon" alt="MAIL"></a>
+                </li>
+              </ul>
+            </div>
           </aside>
           <!-- Особенности -->
           <main class="content">
-
-            <section class="features">
-              <h2 class="page-title">Особенности</h2>
-
-              <ul class="features__list">
-          
-                <li class="features__item">
-                  <div class="features__item--head">
-                    <img class="features__item--img" src="img/icons/flower.png" alt="flower">
-                  </div>
-                  <div class="features__item--desc">
-                    уникальность
-                  </div>
-                  <div class="features__item--text">
-                    Создан для вашего комфортного отдыха
-                  </div>
-                  <ul class="features__item--list">
-                    <li class="features__item--point">
-                      <span>Кофе/чай</span> 
-                    </li>
-                    <li class="features__item--point">
-                      <span>Шкаф (5 кг)</span>
-                    </li>
-                    <li class="features__item--point">
-                      <span>Рабочее место</span>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="features__item">
-                    <div class="features__item--head">
-                      <img class="features__item--img" src="img/icons/mark-as-favorite-star.png" alt="flower">
-                    </div>
-                    <div class="features__item--desc">
-                      премиум-класс
-                    </div>
-                    <div class="features__item--text">
-                      Для любителей хороших впечатлений
-                    </div>
-                    <ul class="features__item--list">
-                      <li class="features__item--point">
-                        <span>Обед+кофе</span> 
-                      </li>
-                      <li class="features__item--point">
-                        <span>Шкаф (10 кг)</span>
-                      </li>
-                      <li class="features__item--point">
-                        <span>Детское кресло</span>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li class="features__item">
-                      <div class="features__item--head">
-                        <img class="features__item--img" src="img/icons/painter-palette.png" alt="flower">
-                      </div>
-                      <div class="features__item--desc">
-                        лакшери-стулья
-                      </div>
-                      <div class="features__item--text">
-                        Всё самое лучшее и незабываемое
-                      </div>
-                      <ul class="features__item--list">
-                        <li class="features__item--point">
-                          <span>Джакузи</span> 
-                        </li>
-                        <li class="features__item--point">
-                          <span>Шкаф (15 кг)</span>
-                        </li>
-                        <li class="features__item--point">
-                          <span>Табуретка</span>
-                        </li>
-                      </ul>
-                    </li>
-              </ul>
-            </section>
             <!-- Новости -->
             <section class="news">
               <h2 class="page-title">Последние новости</h2>
@@ -241,32 +210,10 @@
             Автор работы: <span class="footer__text">Прохладов Вадим</span>
             </div>
           </div>
-          <div class="footer__col footer__col--center">
+          <div class="footer__col footer__col--right">
             <a href="index.html" class="footer__logo">
               <img src="img/logo/logo.png" alt="Site-logo" class="logo__img">
             </a>
-          </div>
-          <div class="footer__col footer__col--right">
-            <div class="footer__social">
-              Наши социальные сети
-              <ul class="social__block">
-                <li class="social__item">
-                  <a href="#" class="social__link social__active"><img src="img/icons/vk.png" class="social__icon" alt="VK"></a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="social__link"><img src="img/icons/fb.png" class="social__icon" alt="FB"></a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="social__link"><img src="img/icons/google.png" class="social__icon" alt="GOOGLE"></a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="social__link"><img src="img/icons/twitter.png" class="social__icon" alt="TWITTER"></a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="social__link"><img src="img/icons/mail.png" class="social__icon" alt="MAIL"></a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>

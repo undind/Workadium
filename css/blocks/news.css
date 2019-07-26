@@ -1,3 +1,6 @@
+.content {
+  flex: 10;
+}
 .news {
   margin-bottom: 65px;
 }
