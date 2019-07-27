@@ -27,6 +27,7 @@
  }
  .menu__item {
    margin-right: 90px;
+   position: relative;
  }
  .menu__item:last-child {
   margin-right: 0;
@@ -46,8 +47,16 @@
  }
  .menu__link:hover {
    color: #ec1e79;
-   -webkit-transition: color 0.2s ease-in;
-   transition: color 0.2s ease-in;
+   -webkit-transition: all 0.4s ease-in;
+   transition: all 0.3s ease-in;
+ }
+ .menu__link:hover::after {
+   opacity: 1;
+   transition: all 0.3s ease-in;
+ }
+ .menu__link:hover::before {
+   opacity: 0;
+   transition: all 0.3s ease-in;
  }
  .menu__link--item {
   color: #ec1e79;
@@ -62,34 +71,57 @@
    height: 18px;
    margin-right: 17px;
    background: url('../../img/sprite/spritesheet.png') no-repeat;
+   opacity: 1;
  }
+ .menu__link::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 18px;
+  background: url('../../img/sprite/spritesheet.png') no-repeat;
+  opacity: 0;
+}
  .menu__item--main--icon--active:before,
- .menu__item--main::before {
+ .menu__item--main--icon--active::after {
   background-position: -89px -33px;
  }
  .menu__item--feed--icon::before {
   background-position: -81px -5px;
  }
- .menu__item--feed--icon:hover::before,
- .menu__item--feed::before {
+ .menu__item--feed--icon::after {
   background-position: -21px -5px;
  }
  .menu__item--wallet--icon::before {
   background-position: -106px -86px;
  }
- .menu__item--wallet--icon:hover::before,
+ .menu__item--wallet--icon::after {
+  background-position: -48px -86px;
+ }
+ .menu__item--main::before {
+  background-position: -89px -32px;
+ }
+ .menu__item--main::after {
+  background-position: -42px -57px;
+ }
+ .menu__item--feed--icon--active::before,
+ .menu__item--feed--icon--active::after {
+  background-position: -51px -5px;
+ }
  .menu__item--wallet::before {
   background-position: -48px -86px;
  }
- .menu__item--main:hover::before {
-  background-position: -42px -58px;
+ .menu__item--wallet::after {
+  background-position: -77px -86px;
+ } 
+ .menu__item--feed::before {
+  background-position: -21px -5px;
  }
- .menu__item--feed--icon--active::before,
- .menu__item--feed:hover::before {
+ .menu__item--feed::after {
   background-position: -51px -5px;
  }
- .menu__item--wallet:hover::before,
- .menu__item--wallet--active::before {
+ .menu__item--wallet--active::before,
+ .menu__item--wallet--active::after {
   background-position: -77px -86px;
  }
  .active__item {
@@ -165,10 +197,10 @@
   background-position: -42px -31px;
 }
 .social__link--twitter::before {
-  background-position: -2px -83px;
+  background-position: -3px -84px;
 }
 .social__link--mail::before {
-  background-position: -66px -31px;
+  background-position: -65px -31px;
 }
 .social__item:hover .social__link {
   background-color: #ec1e79;

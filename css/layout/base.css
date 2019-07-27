@@ -32,6 +32,9 @@ li {
 a {
   text-decoration: none;
 }
+.wrapper {
+  overflow: hidden;
+}
 .header {
   background-color: #27273e;
 }
