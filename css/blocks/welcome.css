@@ -1,0 +1,54 @@
+.wrapper-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('../../img/bg/welcome_img.jpg') center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.welcome__content {
+  display: flex;
+  flex-direction: column;
+  animation: screw .7s 1s cubic-bezier(.3, .96, .56, .81);
+}
+.welcome__logo {
+  margin-bottom: 29px;
+  display: block;
+  max-width: 100%;
+}
+.welcome__btn {
+  border: 3px solid #ec1e79;
+  padding: 14px 22px;
+  color: #ec1e79;
+  font-family: "Gotham Pro Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  transition: 0.3s ease-in;
+}
+.welcome__content:hover .welcome__btn {
+  color: #fff;
+  background-color: #ec1e79;
+}
+@keyframes screw {
+  0% {
+    opacity: 0;
+    transform: scale(.2) rotate(30deg);
+  }
+  40% {
+    transform: rotate(-20deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+  }
+}
