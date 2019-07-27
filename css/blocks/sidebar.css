@@ -43,7 +43,6 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  text-decoration: none;
  }
  .menu__link:hover {
    color: #ec1e79;
@@ -154,7 +153,6 @@
   display: inline-block;
   width: 15px;
   height: 13px;
-  z-index: 999;
   background: url('../../img/sprite/spritesheet.png') no-repeat;
 }
 .social__link--vk::before {

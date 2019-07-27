@@ -1,7 +1,11 @@
 .stock__container {
   padding: 30px 10px 33px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: url('../../img/pattern.png') #27273e repeat center center;
   background-size: cover;
 }
