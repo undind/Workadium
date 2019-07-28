@@ -2,7 +2,7 @@
   margin-bottom: 43px;
 }
 .tariffs__logo {
-  max-width: 250px;
+  max-width: 273px;
   overflow: hidden;
   display: inline-block;
   position: relative;
@@ -39,23 +39,23 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-right: -30px;
+  margin-right: -22px;
   margin-bottom: -65px;
 }
 .tariffs__item {
   text-align: center;
-  margin-bottom: 65px;
+  margin-bottom: 80px;
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 250px;
-          flex: 1 0 250px;
-  margin-right: 20px;
+      -ms-flex: 1 0 272px;
+          flex: 1 0 272px;
+  margin-right: 22px;
 }
 .tariffs__logo-elem {
   display: block;
   max-width: 100%;
 }
 .tariffs__desc {
-  margin-top: 25px;
+  margin-top: 28px;
 }
 .tariffs__title {
   color: #221f1f;

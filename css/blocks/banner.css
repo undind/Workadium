@@ -1,3 +1,6 @@
 .banner {
   background-color: #27273e;
 }
+.site-banner {
+  display: block;
+}

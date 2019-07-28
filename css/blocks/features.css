@@ -1,7 +1,7 @@
 .features__item {
   text-align: center;
   border: 1px solid #e8e9ed;
-  padding: 30px 34px 31px 45px;
+  padding: 30px 30px 30px 42px;
 }
 .features__item--head {
   color: #221f1f;
@@ -10,7 +10,7 @@
   font-weight: 700;
   line-height: 21px;
   text-transform: uppercase;
-  margin-bottom: 35px;
+  margin-bottom: 33px;
 }
 .features__item--desc {
   color: #212121;
@@ -37,6 +37,9 @@
   color: #cc3366;
   list-style-position: inside;
   margin-bottom: 18px;
+}
+.features__item--point:last-child {
+  margin-bottom: 0;
 }
 .features__item--point span {
   color: #000;

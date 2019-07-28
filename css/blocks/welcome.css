@@ -12,6 +12,7 @@
 .welcome__content {
   display: flex;
   flex-direction: column;
+  align-items: center;
   animation: screw .7s 1s cubic-bezier(.3, .96, .56, .81);
 }
 .welcome__logo {
