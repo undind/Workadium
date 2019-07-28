@@ -1,6 +1,10 @@
 .banner {
   background-color: #27273e;
 }
+.banner-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .site-banner {
   display: block;
 }

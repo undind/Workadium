@@ -10,7 +10,7 @@
   font-weight: 700;
   line-height: 21px;
   text-transform: uppercase;
-  margin-bottom: 33px;
+  margin-bottom: 31px;
 }
 .features__item--desc {
   color: #212121;
@@ -19,14 +19,14 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2.88px;
-  margin-bottom: 28px;
+  margin-bottom: 16px;
 }
 .features__item--text {
   color: #221f1f;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 9px;
 }
 .features__item--list {
   text-align: left;
@@ -36,12 +36,12 @@
   list-style: disc;
   color: #cc3366;
   list-style-position: inside;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 .features__item--point:last-child {
   margin-bottom: 0;
 }
 .features__item--point span {
   color: #000;
-  margin-left: 25px;
+  margin-left: 13px;
 }
